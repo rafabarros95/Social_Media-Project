@@ -45,3 +45,22 @@ iframe#screen {
     width: 269px;
     height: 471px;
 }
+
+section#social-network img {
+    width: 50px;
+    margin: 15px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.644);
+    box-sizing: border-box;
+}
+
+section#social-network {
+    text-align: right;
+}
+
+section#social-network img:hover {
+    border: 3px solid rgba(255, 255, 255, 0.636);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.527);
+    transition: transform .3s, border 1s;
+}
